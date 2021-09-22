@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Bai5 {
-    public static void main(String[] args){
+public class Bai6 {
+    public static void main(String[] args) {
         String name;
         int soluong;
         int dongia;
@@ -16,7 +16,6 @@ public class Bai5 {
         System.out.println("Thanh Tien: " + tien);
         int thuegtgt = (tien * 10) / 100;
         System.out.println("thuegtgt: " + thuegtgt);
-
 
 
     }

@@ -5,7 +5,7 @@ public class App {
 
     static String global = "global variable";
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //String str;
         //str = "Data Type";
         String str = "Data Type";
@@ -27,7 +27,7 @@ public class App {
         char c3 = 65;
 
         boolean b1 = true;
-        boolean b2= false;
+        boolean b2 = false;
 
         Integer ref_i = 100;
 
@@ -41,16 +41,17 @@ public class App {
 
         Integer a = 100;
         Integer b = 200;
-        System.out.println("a = " + a + " b = "+b);
+        System.out.println("a = " + a + " b = " + b);
         swap(a, b);
-        System.out.println("a = " + a + " b = "+b);
+        System.out.println("a = " + a + " b = " + b);
 
         SEASON se = SEASON.AUTUMN;
         System.out.println(se);
 
 
     }
-        static void swap(Integer a, Integer b){
+
+    static void swap(Integer a, Integer b) {
         a = 99;
 //        Integer tmp = a;
 //        a = b;
@@ -67,7 +68,7 @@ public class App {
 //
 //    }
 
-    public static void sum(){
+    public static void sum() {
         System.out.println(global);
     }
 }
