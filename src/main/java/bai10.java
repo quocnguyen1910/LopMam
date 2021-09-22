@@ -16,4 +16,6 @@ public class bai10 {
         System.out.println("số lớn nhất là: " + b);
         System.out.println("số nhỏ nhất là: " + a);
     }
-}
+
+    }
+
